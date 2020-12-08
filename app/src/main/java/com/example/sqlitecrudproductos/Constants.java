@@ -18,7 +18,7 @@ public class Constants {
     public static final String C_UPDATE_TIMESTAMP = "UPDATE_TIMESTAMP";
     //create query for table
     public static final String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + "("
-            + C_ID + " INSERT PRIMARY KEY AUTOINCREMENT,"
+            + C_ID + " INTEGER PRIMARY KEY AUTOINCREMENT,"
             + C_NAME + " TEXT,"
             + C_COST + " TEXT,"
             + C_QUANTITY + "TEXT,"
