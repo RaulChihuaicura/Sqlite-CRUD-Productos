@@ -108,7 +108,7 @@ public class AddRecordingActivity extends AppCompatActivity {
                 ""+timeStamp
         );
 
-        Toast.makeText(this, "Record added to id "+id, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Registro agregado  al id "+id, Toast.LENGTH_SHORT).show();
     }
 
     private void imagePickDialog() {
@@ -284,7 +284,7 @@ public class AddRecordingActivity extends AppCompatActivity {
 
     @Override
     public boolean onSupportNavigateUp() {
-        // esta función mueve nuestra ddrescord activity al mainActivity cuando se presiona el botón Atrás
+        // esta función mueve nuestra addrescord activity al mainActivity cuando se presiona el botón Atrás
         onBackPressed();
         return super.onSupportNavigateUp();
     }
